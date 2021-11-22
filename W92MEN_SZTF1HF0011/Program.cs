@@ -51,6 +51,10 @@ namespace W92MEN_SZTF1HF0011
                 S = temp;
                 Feldolgozo(S,P,N,Min,Max);
             }
+            if (!P.Contains('$'))
+            {
+                kotojelfeltoltes(P, Min, Max);
+            }
             else
             {
                 //Console.WriteLine(S);
